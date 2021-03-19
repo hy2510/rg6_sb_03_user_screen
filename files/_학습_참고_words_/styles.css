@@ -2,11 +2,11 @@
   margin:0px;
   background-color:rgba(51, 51, 51, 1);
   background-image:none;
-  position:static;
-  left:auto;
-  width:740px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-0px;
+  width:644px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 .form_sketch {
@@ -28,7 +28,7 @@
 #u580 {
   border-width:0px;
   position:absolute;
-  left:48px;
+  left:0px;
   top:0px;
   width:644px;
   height:360px;
@@ -50,7 +50,7 @@
 #u581 {
   border-width:0px;
   position:absolute;
-  left:53px;
+  left:5px;
   top:3px;
   width:40px;
   height:40px;

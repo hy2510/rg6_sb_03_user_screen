@@ -2,11 +2,11 @@
   margin:0px;
   background-color:rgba(51, 51, 51, 1);
   background-image:none;
-  position:static;
-  left:auto;
-  width:740px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-0px;
+  width:645px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 .form_sketch {
@@ -43,7 +43,7 @@
 #u424 {
   border-width:0px;
   position:absolute;
-  left:46px;
+  left:0px;
   top:0px;
   width:644px;
   height:360px;
@@ -73,7 +73,7 @@
 #u425 {
   border-width:0px;
   position:absolute;
-  left:47px;
+  left:1px;
   top:0px;
   width:644px;
   height:360px;
@@ -103,7 +103,7 @@
 #u426 {
   border-width:0px;
   position:absolute;
-  left:51px;
+  left:5px;
   top:5px;
   width:41px;
   height:39px;
@@ -125,7 +125,7 @@
 #u427 {
   border-width:0px;
   position:absolute;
-  left:55px;
+  left:9px;
   top:6px;
   width:33px;
   height:33px;
@@ -135,7 +135,7 @@
 #u428 {
   border-width:0px;
   position:absolute;
-  left:153px;
+  left:107px;
   top:79px;
   width:129px;
   height:93px;
@@ -145,7 +145,7 @@
 #u429 {
   border-width:0px;
   position:absolute;
-  left:602px;
+  left:556px;
   top:182px;
   width:30px;
   height:53px;
@@ -155,7 +155,7 @@
 #u430 {
   border-width:0px;
   position:absolute;
-  left:305px;
+  left:259px;
   top:79px;
   width:129px;
   height:93px;
@@ -165,7 +165,7 @@
 #u431 {
   border-width:0px;
   position:absolute;
-  left:458px;
+  left:412px;
   top:79px;
   width:129px;
   height:93px;
@@ -175,7 +175,7 @@
 #u432 {
   border-width:0px;
   position:absolute;
-  left:153px;
+  left:107px;
   top:220px;
   width:129px;
   height:93px;
@@ -185,7 +185,7 @@
 #u433 {
   border-width:0px;
   position:absolute;
-  left:305px;
+  left:259px;
   top:220px;
   width:129px;
   height:93px;
@@ -195,7 +195,7 @@
 #u434 {
   border-width:0px;
   position:absolute;
-  left:458px;
+  left:412px;
   top:220px;
   width:129px;
   height:93px;
