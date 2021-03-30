@@ -17,7 +17,7 @@
   position:absolute;
   z-index:0;
 }
-#u1951_img {
+#u5969_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -25,7 +25,7 @@
   width:360px;
   height:640px;
 }
-#u1951 {
+#u5969 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -34,20 +34,20 @@
   height:640px;
   display:flex;
 }
-#u1951 .text {
+#u5969 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u1951_text {
+#u5969_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u1952 {
+#u5970 {
   border-width:0px;
   position:absolute;
   left:298px;
@@ -57,7 +57,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u1953 {
+#u5971 {
   border-width:0px;
   position:absolute;
   left:39px;
