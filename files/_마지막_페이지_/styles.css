@@ -17,7 +17,7 @@
   position:absolute;
   z-index:0;
 }
-#u4423_div {
+#u405_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -32,7 +32,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u4423 {
+#u405 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -41,20 +41,20 @@
   height:360px;
   display:flex;
 }
-#u4423 .text {
+#u405 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u4423_text {
+#u405_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u4424_img {
+#u406_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -62,7 +62,7 @@
   width:644px;
   height:360px;
 }
-#u4424 {
+#u406 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -71,20 +71,20 @@
   height:360px;
   display:flex;
 }
-#u4424 .text {
+#u406 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u4424_text {
+#u406_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u4425 {
+#u407 {
   border-width:0px;
   position:absolute;
   left:7px;
@@ -94,7 +94,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4426 {
+#u408 {
   border-width:0px;
   position:absolute;
   left:61px;
@@ -104,7 +104,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4427 {
+#u409 {
   border-width:0px;
   position:absolute;
   left:105px;
@@ -114,7 +114,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4428 {
+#u410 {
   border-width:0px;
   position:absolute;
   left:258px;
@@ -124,7 +124,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4429 {
+#u411 {
   border-width:0px;
   position:absolute;
   left:411px;
@@ -134,7 +134,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4430 {
+#u412 {
   border-width:0px;
   position:absolute;
   left:105px;

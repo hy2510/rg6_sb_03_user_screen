@@ -17,7 +17,7 @@
   position:absolute;
   z-index:0;
 }
-#u4406_img {
+#u388_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -25,7 +25,7 @@
   width:644px;
   height:360px;
 }
-#u4406 {
+#u388 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -34,20 +34,20 @@
   height:360px;
   display:flex;
 }
-#u4406 .text {
+#u388 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u4406_text {
+#u388_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u4407 {
+#u389 {
   border-width:0px;
   position:absolute;
   left:10px;
@@ -57,7 +57,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4408 {
+#u390 {
   border-width:0px;
   position:absolute;
   left:19px;
@@ -67,7 +67,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4409 {
+#u391 {
   border-width:0px;
   position:absolute;
   left:208px;
@@ -77,7 +77,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4410 {
+#u392 {
   border-width:0px;
   position:absolute;
   left:385px;
@@ -87,7 +87,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4411 {
+#u393 {
   border-width:0px;
   position:absolute;
   left:208px;
@@ -97,7 +97,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4412 {
+#u394 {
   border-width:0px;
   position:absolute;
   left:385px;
@@ -107,7 +107,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u4413 {
+#u395 {
   border-width:0px;
   position:absolute;
   left:528px;
