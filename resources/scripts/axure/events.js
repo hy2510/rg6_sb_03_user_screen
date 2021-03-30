@@ -794,12 +794,20 @@ $axure.internal(function ($ax) {
             //    }
             //};
 
+            const isInput = $ax.public.fn.IsTextArea(dObj.type) || $ax.public.fn.IsTextBox(dObj.type);
+            if(isInput) {
+                var inputJobj = $jobj($ax.INPUT(elementId));
+                inputJobj.bind('keyup', function(e) {
+                    //prevents triggering player shortcuts
+                    e.preventDefault();
+                });
+            }
+
             // Initialize Placeholders. Right now this is text boxes and text areas.
             // Also, the assuption is being made that these widgets with the placeholder, have no other styles (this may change...)
             var hasPlaceholder = dObj.placeholderText == '' ? true : Boolean(dObj.placeholderText);
-            if(($ax.public.fn.IsTextArea(dObj.type) || $ax.public.fn.IsTextBox(dObj.type)) && hasPlaceholder) {
+            if(isInput && hasPlaceholder) {
                 // This is needed to initialize the placeholder state
-                var inputJobj = $jobj($ax.INPUT(elementId));
                 inputJobj.bind('focus', function () {
                     if(dObj.HideHintOnFocused) {
                         var id = this.id;
@@ -851,7 +859,7 @@ $axure.internal(function ($ax) {
                             if(!$ax.placeholderManager.isActive(inputId)) return;
                             $ax.placeholderManager.updatePlaceholder(inputId, false, true);
                         }
-                    }).bind('keyup', function(e) {
+                    }).bind('keyup', function() {
                         var id = this.id;
                         var inputIndex = id.indexOf('_input');
                         if(inputIndex == -1) return;
@@ -862,9 +870,6 @@ $axure.internal(function ($ax) {
                             $ax.placeholderManager.updatePlaceholder(inputId, true);
                             $ax.placeholderManager.moveCaret(id, 0);
                         }
-
-                        //prevents triggering player shortcuts
-                        e.preventDefault();
                     });
                 }
 
